@@ -55,3 +55,4 @@ export declare class Brainly {
     private getPrettyRequestResult;
     private buildQuery;
 }
+export default Brainly;

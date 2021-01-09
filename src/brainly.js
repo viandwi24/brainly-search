@@ -111,3 +111,4 @@ class Brainly {
     }
 }
 exports.Brainly = Brainly;
+exports.default = Brainly;

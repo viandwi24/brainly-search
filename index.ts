@@ -11,3 +11,4 @@ export {
   IMiddlewareParams,
   IEnumLanguage
 };
+module.exports = brainly;

@@ -17,3 +17,4 @@ const brainly = (question, options = {}) => __awaiter(void 0, void 0, void 0, fu
     return yield (new brainly_1.Brainly(options)).get(question);
 });
 exports.default = brainly;
+module.exports = brainly;
