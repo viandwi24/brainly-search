@@ -9,6 +9,12 @@
     "start": "npm run build && node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
   "keywords": [
     "brainly",
     "api",
@@ -17,10 +23,15 @@
   ],
   "author": "viandwi24",
   "license": "MIT",
-  "devDependencies": {
-    "typescript": "^4.1.3"
+  "bugs": {
+    "url": "https://github.com/viandwi24/brainly-search/issues"
   },
-  "dependencies": {
-    "axios": "^0.21.1"
+  "homepage": "https://github.com/viandwi24/brainly-search",
+  "publishConfig": {
+    "registry": "https://npmjs.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viandwi24/brainly-search.git"
   }
 }
