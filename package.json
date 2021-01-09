@@ -1,0 +1,26 @@
+{
+  "name": "brainly-search",
+  "version": "1.0.0",
+  "description": "Library for make you can easy search or scraper Brainly. And You can easy customization!",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "tsc",
+    "start": "npm run build && node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "brainly",
+    "api",
+    "scrape",
+    "interface"
+  ],
+  "author": "viandwi24",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
